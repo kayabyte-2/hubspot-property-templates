@@ -1,0 +1,11 @@
+object,name,label,type,field_type,group,group_label,description,options,options_mode,action
+deals,qualification_budget,Budget confirmed,enumeration,select,deal_qualification,Deal qualification,Has the buyer confirmed a budget range?,"Yes|yes
+No|no
+Not discussed|not_discussed",merge,upsert
+deals,qualification_authority,Decision maker identified,enumeration,select,deal_qualification,Deal qualification,Do we know who signs?,"Yes|yes
+No|no",merge,upsert
+deals,qualification_timeline,Buying timeline,enumeration,select,deal_qualification,Deal qualification,When does the buyer want to decide?,"This quarter|this_quarter
+Next quarter|next_quarter
+Later|later
+Unknown|unknown",merge,upsert
+deals,lost_reason_detail,Lost reason detail,string,textarea,deal_qualification,Deal qualification,Free text on why the deal was lost,,merge,upsert

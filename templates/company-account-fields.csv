@@ -1,0 +1,8 @@
+object,name,label,type,field_type,group,group_label,description,options,options_mode,action
+companies,account_tier,Account tier,enumeration,select,account_management,Account management,Internal segmentation of the account,"Tier 1|tier_1
+Tier 2|tier_2
+Tier 3|tier_3",merge,upsert
+companies,contract_renewal_date,Contract renewal date,date,date,account_management,Account management,Next renewal date,,merge,upsert
+companies,customer_health,Customer health,enumeration,radio,account_management,Account management,Manual health check by the account owner,"Healthy|healthy
+Watch|watch
+At risk|at_risk",merge,upsert

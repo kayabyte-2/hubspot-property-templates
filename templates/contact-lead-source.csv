@@ -1,0 +1,13 @@
+object,name,label,type,field_type,group,group_label,description,options,options_mode,action
+contacts,lead_source_detail,Lead source detail,enumeration,select,lead_attribution,Lead attribution,Where the contact first came from,"Website form|website_form
+Event|event
+Referral|referral
+Partner|partner
+Outbound|outbound
+Other|other",merge,upsert
+contacts,lead_source_campaign,Lead source campaign,string,text,lead_attribution,Lead attribution,Campaign name or code,,merge,upsert
+contacts,preferred_language,Preferred language,enumeration,select,lead_attribution,Lead attribution,Language to use when writing to the contact,"English|en
+Norwegian|no
+German|de
+French|fr
+Spanish|es",merge,upsert
